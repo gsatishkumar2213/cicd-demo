@@ -7,6 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class HelloControllerTest {
     @Test
     void returnsGreeting() {
-        assertEquals("Wrong", new HelloController().hello());
+        assertEquals("LK CI/CD Pipeline", new HelloController().hello());
     }
 }
